@@ -6,6 +6,10 @@ class Album
         @year = year
     end
     def to_s
-        @artist + " \"" + @title + "\" (" + @year.to_s + ")"
+        result = @artist + " \"" + @title + "\""
+        if year != nil
+            result += " [" + @year.to_s + "]"
+        end
+        result
     end
 end

@@ -12,5 +12,8 @@ class Library
         end
         puts
     end
+    def count
+        @cd_collection.count
+    end
 end
 
