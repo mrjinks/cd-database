@@ -5,25 +5,6 @@ l = Library.new
 l.add(Album.new("Pearl Jam", "Ten", 1993))
 
 # check if there is switch/case instruction
-
-# def read_artist()
-#     artist = ""
-#     while artist == ""
-#         puts "Type in artist's name:"
-#         artist = gets.chomp
-#     end
-#     return artist
-# end
-
-# def read_title()
-#     title = ""
-#     while title == ""
-#         puts "Type in title:"
-#         title = gets.chomp
-#     end
-#     return title
-# end
-
 def read_user_input(msg)
     input = ""
     while input == ""
