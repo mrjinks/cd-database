@@ -15,5 +15,11 @@ class Library
     def count
         @cd_collection.count
     end
+    def delete(index)
+        if index < @cd_collection.count
+            @cd_collection.delete_at(index)
+            puts "Deleted element with index: " + index.to_s
+        end
+    end
 end
 
